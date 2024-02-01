@@ -1,0 +1,104 @@
+html,
+body {
+    min-width: 290px;
+    color: #986A50;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+section {
+    display: block;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+section article {
+    color: black;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+#ai-one {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 46.5%;
+    border-right: solid;
+    border-color: #DCAE97;
+    justify-content: flex;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: #4B3830;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    display: block;
+}
+
+header {
+    color: #4B3830;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+    display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
